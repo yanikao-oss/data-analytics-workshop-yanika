@@ -1,0 +1,10 @@
+csv_data_row,issue,action
+5,Region format inconsistency,Normalized to title case
+19,Region format inconsistency,Normalized to title case
+24,Category spelling inconsistency,Electronic -> Electronics
+24,Product-category mismatch,P-A -> Home based on the observed product mapping
+33,Missing Sales,Calculated as Cost + Profit
+34,Missing Profit,Calculated as Sales - Cost
+262,Exact duplicate row,Removed duplicate
+79,Negative Quantity,Preserved; confirm return/adjustment or correction
+57,Discount outside 0-1 range,Preserved; confirm unit or source value
